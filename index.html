@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathew Sebastian | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Placeholder for FontAwesome/Icons -->
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">MDS.</a>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar">☰</span>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Initiatives</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons" style="display: none;"> <!-- Hidden for personal portfolio usually -->
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Mathew Dony Sebastian</h1>
+            <p class="hero-subtitle">Principal Technical Software Architect</p>
+            <p>20+ years building large-scale payment systems and cloud-native platforms. <br>Specializing in
+                mission-critical financial infrastructure and reliable distributed systems.</p>
+            <div class="cta-group">
+                <a href="#experience" class="btn btn-primary">My Experience</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Core Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>System Architecture</h3>
+                    <p>Microservices, Event-Driven Architecture, ISO20022, Cloud-Native Patterns</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-lock"></i>
+                    <h3>Security & Identity</h3>
+                    <p>OAuth2, OIDC, Token Lifecycle, Consent Orchestration, Zero Trust</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud & DevOps</h3>
+                    <p>Kubernetes, Istio, Docker, Azure, CI/CD Transformation</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-users-cog"></i>
+                    <h3>Leadership</h3>
+                    <p>Technical Strategy, Team Mentorship, Cross-Functional Delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section (Replaces Services) -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <!-- Interac -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Current</div>
+                    <div class="timeline-content">
+                        <h3>Principal Architect</h3>
+                        <h4>Interac Corp.</h4>
+                        <p>Leading the architecture for <strong>Interac Direct</strong>, a national real-time
+                            account-to-account payment rail built on ISO20022 and event-driven microservices.
+                            <br><br>
+                            Designed core services for the <strong>Konek digital wallet</strong>, including consent
+                            orchestration, token lifecycle management, and secure profile services, collaborating with
+                            major Canadian banks.
+                        </p>
+                    </div>
+                </div>
+                <!-- Rogers -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Previous</div>
+                    <div class="timeline-content">
+                        <h3>Technical Delivery Manager</h3>
+                        <h4>Rogers Communications</h4>
+                        <p>Managed the modernization of the customer-facing virtual assistant platform. Successfully
+                            migrated a monolith to <strong>Spring Boot microservices on Kubernetes with Istio</strong>,
+                            enhancing deployment frequency and reliability for 5M+ customers.</p>
+                    </div>
+                </div>
+                <!-- TCS / Interac -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2013 - 2019</div>
+                    <div class="timeline-content">
+                        <h3>Solution Architect / Tech Lead</h3>
+                        <h4>TCS (Client: Interac Corp)</h4>
+                        <p>Led the modernization of the <strong>Interac e-Transfer platform</strong> from legacy SOAP
+                            monoliths to RESTful microservices.
+                            <br><br>
+                            Architected the <strong>Interac e-Transfer 3.0</strong> enhancement initiative, designing
+                            payment gateways and reducing defect rates by 40%.
+                        </p>
+                    </div>
+                </div>
+                <!-- TCS / Amex -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Previous</div>
+                    <div class="timeline-content">
+                        <h3>Consultant / Lead</h3>
+                        <h4>Tata Consultancy Services (American Express)</h4>
+                        <p>Worked on FX international payments and credit card platforms. Handled multi-million-dollar
+                            daily volumes and cross-border flows, ensuring high availability and compliance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects/Achievements Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Key Initiatives</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Interac Direct</h3>
+                        <p>National real-time payment rail modernization.</p>
+                        <div class="tags">
+                            <span>ISO20022</span>
+                            <span>Event-Driven</span>
+                            <span>Microservices</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Konek Digital Wallet</h3>
+                        <p>Secure digital identity and payment wallet ecosystem.</p>
+                        <div class="tags">
+                            <span>Security</span>
+                            <span>Identity</span>
+                            <span>Orchestration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Rogers AI Assistant</h3>
+                        <p>Cloud-native modernization of customer support AI.</p>
+                        <div class="tags">
+                            <span>K8s</span>
+                            <span>Istio</span>
+                            <span>Spring Boot</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Interac e-Transfer Modernization</h3>
+                        <p>Legacy to Cloud-Native transformation.</p>
+                        <div class="tags">
+                            <span>Microservices</span>
+                            <span>REST API</span>
+                            <span>Azure</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Global FX Payments</h3>
+                        <p>International payment platform for Amex.</p>
+                        <div class="tags">
+                            <span>FinTech</span>
+                            <span>High Availability</span>
+                            <span>Java/J2EE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>I'm open to freelance opportunities and interesting projects. Feel free to reach out!</p>
+                    <ul class="contact-details">
+                        <li><i class="fas fa-envelope"></i> msebastian@interac.ca</li>
+                        <li><i class="fas fa-phone"></i> +1 647-633-8364</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Toronto, Canada</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/mathewdony" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mathew Sebastian. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
